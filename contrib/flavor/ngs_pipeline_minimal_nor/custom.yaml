@@ -1,0 +1,14 @@
+---
+bio_nextgen:
+  alignment:
+  utilities:
+    - rnaseqc
+    - featurecounts
+  analysis:
+    - picard
+  variant:
+    - bcbio_variation
+    - mutect
+    - varscan
+  needs_64bit:
+    - ucsc_tools

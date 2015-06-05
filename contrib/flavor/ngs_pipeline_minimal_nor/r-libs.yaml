@@ -1,0 +1,21 @@
+---
+cranrepo: http://cran.fhcrc.org/
+cran:
+  - cghFLasso
+  - devtools
+  - ggplot2
+  - gsalib
+  - matrixStats
+  - snow
+cran-after-bioc:
+  - PSCBS
+biocrepo: http://bioconductor.org/biocLite.R
+bioc:
+ - BiocInstaller
+ - BubbleTree
+ - cn.mops
+ - DEXSeq
+ - DNAcopy
+ - GenomicRanges
+ - IRanges
+ - rtracklayer
