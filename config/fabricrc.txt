@@ -26,7 +26,7 @@ dist_name = __auto__
 
 # Whether to clean the system for EC2 AMI preparation;
 # do not set on vagrant or local machines
-is_ec2_image = false
+is_ec2_image = true
 
 # Global installation directory for packages and standard programs
 system_install = /usr/local
